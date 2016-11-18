@@ -1,4 +1,14 @@
 <resources>
     <string name="app_name">Android_1_lesson_3_home_work</string>
-    <string name="button">Button</string>
+    <string name="courseName">Андроид курс от Geekbrains.</string>
+    <string name="courseLevel_1">Уровень 1</string>
+    <string name="btnTextLesson1">Урок 1 Введение в платформу Android</string>
+    <string name="btnTextLesson2">Урок 2 Activity и ресурсы приложения</string>
+    <string name="btnTextLesson3">Урок 3 Разработка пользовательского интерфейса</string>
+    <string name="btnTextLesson4">Урок 4 Меню и Диалоги</string>
+    <string name="btnTextLesson5">Урок 5 Коллекции в Android</string>
+    <string name="btnTextLesson6">Урок 6 Activity и класс Intent</string>
+    <string name="btnTextLesson7">Урок 7 Хранение данных</string>
+    <string name="btnTextLesson8">Урок 8 Фрагменты и web</string>
+    <string name="testTextBtnClick">Нажата кнопка</string>
 </resources>

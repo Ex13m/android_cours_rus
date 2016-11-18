@@ -17,71 +17,89 @@
         android:layout_width="match_parent">
 
         <TextView
+            android:id="@+id/courseName"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Андроид курс от Geekbrains."
+            android:text="@string/courseName"
             android:textAlignment="center"
             android:textStyle="normal|bold"
             android:textSize="24sp"
             android:layout_marginTop="5dp" />
         <TextView
+            android:id="@+id/courseLevel_1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Уровень 1"
+            android:text="@string/courseLevel_1"
             android:textAlignment="center"
             android:textStyle="normal|bold"
             android:textSize="18sp"
             android:layout_marginTop="5dp" />
 
         <Button
-            android:text="Урок 1 Введение в платформу Android"
+            android:text="@string/btnTextLesson1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/button"
-            android:layout_marginTop="10dp" />
+            android:id="@+id/btnTextLesson1"
+            android:layout_marginTop="10dp"
+            android:textSize="12sp" />
 
         <Button
-            android:text="Урок 2
-Activity и ресурсы приложения"
+            android:text="@string/btnTextLesson2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/button2" />
+            android:id="@+id/btnTextLesson2"
+            android:textSize="12sp" />
 
         <Button
-            android:text="Button"
+            android:text="@string/btnTextLesson3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/button3" />
+            android:id="@+id/btnTextLesson3"
+            android:textSize="12sp" />
 
         <Button
-            android:text="Button"
+            android:text="@string/btnTextLesson4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/button4" />
+            android:id="@+id/btnTextLesson4"
+            android:textSize="12sp" />
 
         <Button
-            android:text="Button"
+            android:text="@string/btnTextLesson5"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/button5" />
+            android:id="@+id/btnTextLesson5"
+            android:textSize="12sp" />
 
         <Button
-            android:text="Button"
+            android:text="@string/btnTextLesson6"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/button6" />
+            android:id="@+id/btnTextLesson6"
+            android:textSize="12sp" />
 
         <Button
-            android:text="Button"
+            android:text="@string/btnTextLesson7"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/button10" />
+            android:id="@+id/btnTextLesson7"
+            android:textSize="12sp" />
 
         <Button
-            android:text="Button"
+            android:text="@string/btnTextLesson8"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/button11" />
+            android:id="@+id/btnTextLesson8"
+            android:textSize="12sp" />
+
+        <TextView
+            android:text="@string/testTextBtnClick"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/testTextBtnClick"
+            android:textSize="18sp"
+            android:textStyle="normal|bold"
+            android:textAlignment="center" />
 
     </LinearLayout>
 
