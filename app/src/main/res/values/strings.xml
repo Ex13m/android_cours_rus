@@ -11,4 +11,13 @@
     <string name="btnTextLesson7">Урок 7 Хранение данных</string>
     <string name="btnTextLesson8">Урок 8 Фрагменты и web</string>
     <string name="testTextBtnClick">Нажата кнопка</string>
+    <string name="btnTheory">Теория</string>
+    <string name="btnWebinar">Просмотр записи вебинара</string>
+    <string name="btnCodLesson3">Скачать пример кода</string>
+    <string name="btnCodLesson3onGitHub">Смотреть код урока на GitHub</string>
+    <string name="btnHomeWorkAppStart">Домашняя работа запустить</string>
+    <string name="btnHomeWorkOnGitHub">Смотреть код ДЗ на GitHub</string>
+    <string name="HomeWorkText">Домашняя работа</string>
+    <string name="textForSend">Введите текст для отправки…</string>
+    <string name="btnSendText">Отправить</string>
 </resources>

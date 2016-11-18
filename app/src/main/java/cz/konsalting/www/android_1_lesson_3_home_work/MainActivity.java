@@ -1,5 +1,6 @@
 package cz.konsalting.www.android_1_lesson_3_home_work;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
@@ -7,15 +8,15 @@ import android.widget.Button;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener{
-     TextView testTextBtnClick;
-     Button btnTextLesson1 ;
-     Button btnTextLesson2 ;
-     Button btnTextLesson3 ;
-     Button btnTextLesson4 ;
-     Button btnTextLesson5 ;
-     Button btnTextLesson6 ;
-     Button btnTextLesson7 ;
-     Button btnTextLesson8 ;
+     private TextView testTextBtnClick;
+     private Button btnTextLesson1 ;
+     private Button btnTextLesson2 ;
+     private Button btnTextLesson3 ;
+     private Button btnTextLesson4 ;
+     private Button btnTextLesson5 ;
+     private Button btnTextLesson6 ;
+     private Button btnTextLesson7 ;
+     private Button btnTextLesson8 ;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -57,7 +58,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
              case R.id.btnTextLesson3:
                 //Переход на активити Lesson4
                 //Тест активности кнопки
-                testTextBtnClick.setText(R.string.btnTextLesson3);break;
+                 Intent intent = new Intent(this, Lesson3.class);
+                 startActivity(intent);
+                //testTextBtnClick.setText(R.string.btnTextLesson3);break;
             case R.id.btnTextLesson4:
                 //Переход на активити Lesson4
                 //Тест активности кнопки
