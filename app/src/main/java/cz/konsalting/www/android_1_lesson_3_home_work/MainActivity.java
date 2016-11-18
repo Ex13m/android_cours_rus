@@ -1,7 +1,7 @@
 package cz.konsalting.www.android_1_lesson_3_home_work;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
@@ -31,6 +31,16 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         btnTextLesson6 = (Button) findViewById(R.id.btnTextLesson6);
         btnTextLesson7 = (Button) findViewById(R.id.btnTextLesson7);
         btnTextLesson8 = (Button) findViewById(R.id.btnTextLesson8);
+
+        btnTextLesson1.setOnClickListener(this);
+        btnTextLesson2.setOnClickListener(this);
+        btnTextLesson3.setOnClickListener(this);
+        btnTextLesson4.setOnClickListener(this);
+        btnTextLesson5.setOnClickListener(this);
+        btnTextLesson6.setOnClickListener(this);
+        btnTextLesson7.setOnClickListener(this);
+        btnTextLesson8.setOnClickListener(this);
+
     }
 
     @Override
@@ -39,35 +49,36 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.btnTextLesson1:
                 //Переход на активити Lesson1
                 //Тест активности кнопки
-                testTextBtnClick.setText(getString(R.string.btnTextLesson1));
+                testTextBtnClick.setText(R.string.btnTextLesson1);break;
             case R.id.btnTextLesson2:
                 //Переход на активити Lesson2
                 //Тест активности кнопки
-                testTextBtnClick.setText(getString(R.string.btnTextLesson2));
-            case R.id.btnTextLesson3:
-                //Переход на активити Lesson3
+                testTextBtnClick.setText(R.string.btnTextLesson2);break;
+             case R.id.btnTextLesson3:
+                //Переход на активити Lesson4
                 //Тест активности кнопки
-                testTextBtnClick.setText(getString(R.string.btnTextLesson3));
+                testTextBtnClick.setText(R.string.btnTextLesson3);break;
             case R.id.btnTextLesson4:
                 //Переход на активити Lesson4
                 //Тест активности кнопки
-                testTextBtnClick.setText(getString(R.string.btnTextLesson4));break;
+                testTextBtnClick.setText(R.string.btnTextLesson4);break;
+
             case R.id.btnTextLesson5:
                 //Переход на активити Lesson5
                 //Тест активности кнопки
-                testTextBtnClick.setText(getString(R.string.btnTextLesson5));break;
+                testTextBtnClick.setText(R.string.btnTextLesson5);break;
             case R.id.btnTextLesson6:
                 //Переход на активити Lesson6
                 //Тест активности кнопки
-                testTextBtnClick.setText(getString(R.string.btnTextLesson6));break;
+                testTextBtnClick.setText(R.string.btnTextLesson6);break;
             case R.id.btnTextLesson7:
                 //Переход на активити Lesson7
                 //Тест активности кнопки
-                testTextBtnClick.setText(getString(R.string.btnTextLesson7));break;
+                testTextBtnClick.setText(R.string.btnTextLesson7);break;
             case R.id.btnTextLesson8:
                 //Переход на активити Lesson8
                 //Тест активности кнопки
-                testTextBtnClick.setText(getString(R.string.btnTextLesson8));break;
+                testTextBtnClick.setText(R.string.btnTextLesson8);break;
 
         }
 
