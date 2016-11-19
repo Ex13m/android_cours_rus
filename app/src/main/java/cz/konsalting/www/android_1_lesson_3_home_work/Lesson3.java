@@ -10,13 +10,13 @@ import android.widget.TextView;
 public class Lesson3 extends AppCompatActivity implements View.OnClickListener{
 
 
-    TextView testTextBtnClick;
-    Button btnTheory;
-    Button btnWebinar;
-    Button btnCodLesson3;
-    Button btnCodLesson3onGitHub;
-    Button btnHomeWorkAppStart;
-    Button btnHomeWorkOnGitHub;
+     private TextView testTextBtnClick;
+     private Button btnTheory;
+     private Button btnWebinar;
+     private Button btnCodLesson3;
+     private Button btnCodLesson3onGitHub;
+     private Button btnHomeWorkAppStart;
+     private Button btnHomeWorkOnGitHub;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -31,6 +31,12 @@ public class Lesson3 extends AppCompatActivity implements View.OnClickListener{
         btnHomeWorkAppStart = (Button)findViewById(R.id.btnHomeWorkAppStart);
         btnHomeWorkOnGitHub = (Button)findViewById(R.id.btnHomeWorkOnGitHub);
 
+        btnTheory.setOnClickListener(this);
+        btnWebinar.setOnClickListener(this);
+        btnCodLesson3.setOnClickListener(this);
+        btnCodLesson3onGitHub.setOnClickListener(this);
+        btnHomeWorkAppStart.setOnClickListener(this);
+        btnHomeWorkOnGitHub.setOnClickListener(this);
 
     }
     @Override

@@ -8,6 +8,7 @@ import android.widget.Button;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener{
+
      private TextView testTextBtnClick;
      private Button btnTextLesson1 ;
      private Button btnTextLesson2 ;

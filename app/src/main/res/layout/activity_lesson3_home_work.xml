@@ -30,19 +30,18 @@
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:inputType="textPersonName"
-            android:text="@string/textForSend"
+            android:text=""
             android:ems="12"
             android:id="@+id/editText"
-
-            android:textAlignment="center"
-            android:backgroundTint="@color/colorPrimary" />
+            android:textAlignment="viewStart"
+            android:hint="@string/textForSend"
+             />
 
         <Button
             android:text="@string/btnSendText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/btnTheory"
+            android:id="@+id/btnSendText"
             android:layout_marginTop="10dp"
             android:textSize="12sp" />
 

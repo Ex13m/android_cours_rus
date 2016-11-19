@@ -18,6 +18,6 @@
     <string name="btnHomeWorkAppStart">Домашняя работа запустить</string>
     <string name="btnHomeWorkOnGitHub">Смотреть код ДЗ на GitHub</string>
     <string name="HomeWorkText">Домашняя работа</string>
-    <string name="textForSend">Введите текст для отправки…</string>
+    <string name="textForSend">Введите текст сообщения…</string>
     <string name="btnSendText">Отправить</string>
 </resources>
