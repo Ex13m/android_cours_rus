@@ -8,7 +8,6 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-
     android:background="@drawable/kozha">
 
     <LinearLayout
@@ -20,7 +19,7 @@
             android:id="@+id/courseName"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/btnTextLesson1"
+            android:text="@string/btnTextLesson3"
             android:textAlignment="center"
             android:textStyle="normal|bold"
             android:textSize="24sp"
@@ -68,7 +67,12 @@
             android:layout_height="wrap_content"
             android:id="@+id/btnHomeWorkOnGitHub"
             android:textSize="12sp" />
-
+        <Button
+            android:text="@string/btnTestQuestions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnTestQuestions"
+            android:textSize="12sp" />
 
 
         <TextView
