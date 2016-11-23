@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_lesson4"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/kozha">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+
+        <TextView
+            android:id="@+id/courseName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btnTextLesson1"
+            android:textAlignment="center"
+            android:textStyle="normal|bold"
+            android:textSize="24sp"
+            android:layout_marginTop="5dp" />
+
+        <Button
+            android:text="@string/btnTheory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnTheory"
+            android:layout_marginTop="10dp"
+            android:textSize="12sp" />
+
+        <Button
+            android:text="@string/btnWebinar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnWebinar"
+            android:textSize="12sp" />
+
+        <Button
+            android:text="@string/btnCodLesson3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnCodLesson3"
+            android:textSize="12sp" />
+
+        <Button
+            android:text="@string/btnCodLesson3onGitHub"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnCodLesson3onGitHub"
+            android:textSize="12sp" />
+
+        <Button
+            android:text="@string/btnHomeWorkAppStart"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnHomeWorkAppStart"
+            android:textSize="12sp" />
+
+        <Button
+            android:text="@string/btnHomeWorkOnGitHub"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnHomeWorkOnGitHub"
+            android:textSize="12sp" />
+        <Button
+            android:text="@string/btnTestQuestions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnTestQuestions"
+            android:textSize="12sp" />
+
+
+        <TextView
+            android:text="@string/testTextBtnClick"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/testTextBtnClick"
+            android:textSize="18sp"
+            android:textStyle="normal|bold"
+            android:textAlignment="center" />
+
+    </LinearLayout>
+
+</RelativeLayout>
