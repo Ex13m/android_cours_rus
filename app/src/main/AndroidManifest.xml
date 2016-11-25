@@ -15,9 +15,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Lesson3" />
-        <activity android:name=".Lesson3HomeWork" />
-        <activity android:name=".Lesson3HomeWorkSecondScreen"></activity>
+        <activity android:name=".lesson_3.Lesson3" />
+        <activity android:name=".lesson_3.Lesson3HomeWork" />
+        <activity android:name=".lesson_3.Lesson3HomeWorkSecondScreen" />
+        <activity android:name=".lesson_4.Calculator" />
+        <activity android:name=".lesson_4.Lesson4" />
     </application>
 
 </manifest>

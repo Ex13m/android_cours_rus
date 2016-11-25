@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Android_1_lesson_3_home_work</string>
+    <string name="app_name">Android_1_level_2</string>
     <string name="courseName">Андроид курс от Geekbrains.</string>
     <string name="courseLevel_1">Уровень 1</string>
     <string name="btnTextLesson1">Урок 1 Введение в платформу Android</string>
@@ -20,4 +20,28 @@
     <string name="HomeWorkText">Домашняя работа</string>
     <string name="textForSend">Введите текст сообщения…</string>
     <string name="btnSendText">Отправить</string>
+    <string name="btnTestQuestions">Проверить свои знания</string>
+    <string name="homeWorkTask">1. Измените приложение, полученное после Задания 3 таким образом, чтобы при возврате из второй Операции в первую мы получали результат. Какой результат и куда его выводить можете решить сами. Цель: научиться не только передавать данные через Intent, но и получать какой-то результат. 2. Найдите способ обработки метода startActivity() неявного Intent, который позволит не закрываться аварийно вашему приложению при отсутствии в системе Операции имеющей нужное Действие. 3. Найдите способ ограничения доступа к вашей Activity из других приложений.</string>
+    <string name="nullCalcScreen"> </string>
+    <string name="seven">7</string>
+    <string name="eight">8</string>
+    <string name="nine">9</string>
+    <string name="slash">/</string>
+    <string name="fore">4</string>
+    <string name="five">5</string>
+    <string name="six">6</string>
+    <string name="x">x</string>
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="minus">-</string>
+    <string name="cancel">C</string>
+    <string name="zero">0</string>
+    <string name="point">.</string>
+    <string name="plus">+</string>
+    <string name="off">OFF</string>
+    <string name="Equally">=</string>
+    <string name="hint1">Введите число</string>
+    <string name="maxScreenLength">15</string>
+
 </resources>

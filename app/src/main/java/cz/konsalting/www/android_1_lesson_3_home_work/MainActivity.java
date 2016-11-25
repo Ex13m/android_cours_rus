@@ -6,18 +6,23 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+import android.widget.Toast;
 
-public class MainActivity extends AppCompatActivity implements View.OnClickListener{
+import cz.konsalting.www.android_1_lesson_3_home_work.lesson_3.Lesson3;
+import cz.konsalting.www.android_1_lesson_3_home_work.lesson_4.Lesson4;
 
-     private TextView testTextBtnClick;
-     private Button btnTextLesson1 ;
-     private Button btnTextLesson2 ;
-     private Button btnTextLesson3 ;
-     private Button btnTextLesson4 ;
-     private Button btnTextLesson5 ;
-     private Button btnTextLesson6 ;
-     private Button btnTextLesson7 ;
-     private Button btnTextLesson8 ;
+public class MainActivity extends AppCompatActivity implements View.OnClickListener {
+
+    private TextView testTextBtnClick;
+    private Button btnTextLesson1;
+    private Button btnTextLesson2;
+    private Button btnTextLesson3;
+    private Button btnTextLesson4;
+    private Button btnTextLesson5;
+    private Button btnTextLesson6;
+    private Button btnTextLesson7;
+    private Button btnTextLesson8;
+    private Toast toast;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -47,44 +52,39 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     @Override
     public void onClick(View view) {
-        switch (view.getId()){
+        switch (view.getId()) {
             case R.id.btnTextLesson1:
                 //Переход на активити Lesson1
                 //Тест активности кнопки
-                testTextBtnClick.setText(R.string.btnTextLesson1);break;
+                //testTextBtnClick.setText(R.string.btnTextLesson1);break;
+                //Всплывающее окно
+                Toast.makeText(this, R.string.btnTextLesson5, Toast.LENGTH_SHORT).show();
+                break;
             case R.id.btnTextLesson2:
-                //Переход на активити Lesson2
-                //Тест активности кнопки
-                testTextBtnClick.setText(R.string.btnTextLesson2);break;
-             case R.id.btnTextLesson3:
-                //Переход на активити Lesson4
-                //Тест активности кнопки
-                 Intent intent = new Intent(this, Lesson3.class);
-                 startActivity(intent);
-                //testTextBtnClick.setText(R.string.btnTextLesson3);break;
+                Toast.makeText(this, R.string.btnTextLesson2, Toast.LENGTH_SHORT).show();
+                break;
+            //Переход на активити Lesson4
+            case R.id.btnTextLesson3:
+                Intent intent = new Intent(this, Lesson3.class);
+                startActivity(intent);
+                break;
             case R.id.btnTextLesson4:
-                //Переход на активити Lesson4
-                //Тест активности кнопки
-                testTextBtnClick.setText(R.string.btnTextLesson4);break;
-
+                Intent intent1 = new Intent(this, Lesson4.class);
+                startActivity(intent1);
+                break;
             case R.id.btnTextLesson5:
-                //Переход на активити Lesson5
-                //Тест активности кнопки
-                testTextBtnClick.setText(R.string.btnTextLesson5);break;
+                Toast.makeText(this, R.string.btnTextLesson5, Toast.LENGTH_SHORT).show();
+                break;
             case R.id.btnTextLesson6:
-                //Переход на активити Lesson6
-                //Тест активности кнопки
-                testTextBtnClick.setText(R.string.btnTextLesson6);break;
+                Toast.makeText(this, R.string.btnTextLesson6, Toast.LENGTH_SHORT).show();
+                break;
             case R.id.btnTextLesson7:
-                //Переход на активити Lesson7
-                //Тест активности кнопки
-                testTextBtnClick.setText(R.string.btnTextLesson7);break;
+                Toast.makeText(this, R.string.btnTextLesson7, Toast.LENGTH_SHORT).show();
+                break;
             case R.id.btnTextLesson8:
-                //Переход на активити Lesson8
-                //Тест активности кнопки
-                testTextBtnClick.setText(R.string.btnTextLesson8);break;
+                Toast.makeText(this, R.string.btnTextLesson8, Toast.LENGTH_SHORT).show();
+                break;
 
         }
-
     }
 }
