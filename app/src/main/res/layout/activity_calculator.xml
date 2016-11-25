@@ -18,7 +18,7 @@
         android:layout_width="match_parent"
         android:textAppearance="@style/TextAppearance.AppCompat.Display1"
         android:textColor="@android:color/darker_gray"
-        android:gravity="end"
+        android:gravity=""
         android:textSize="40sp"
         android:background="@color/colorAccent"
         android:lines="1"

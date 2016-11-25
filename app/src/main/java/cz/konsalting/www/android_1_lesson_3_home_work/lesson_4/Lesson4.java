@@ -81,7 +81,7 @@ public class Lesson4 extends AppCompatActivity implements View.OnClickListener{
                 break;
             //смотреть код ДЗ на гитхаб
             case R.id.btnHomeWorkOnGitHub:
-                Intent intent6 = new Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/legioner010/Intent"));
+                Intent intent6 = new Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/Ex13m/android_cours_rus"));
                 startActivity(intent6);
                 break;
             case R.id.btnTestQuestions:
